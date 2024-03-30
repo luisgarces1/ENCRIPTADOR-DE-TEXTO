@@ -23,6 +23,7 @@ body {
     padding: 1px;
 }
 .header__nav__link__logo {
+    background-image: url(img/Logo.jpg);
     width: 70px;
     height: 70px;
      /* Ajusta el alto para que sea igual al ancho */
