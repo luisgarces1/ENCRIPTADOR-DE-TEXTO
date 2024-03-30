@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+        <title>Texto Encriptador</title>
+
+        <link rel="shortcut icon" href="/img/cifrado.png"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-foo/bar=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+        <header class="header">
+            <a href="/" class="header__nav__link--home header__nav__link--logo" previewlistener="true">
+            
+                <img class="header__nav__link__logo" alt="Alura" src="/img/Logo.jpg" width="90" height="50">
+            
+            </a>
+            
+           <img src="/img/casa.jpg" alt="" srcset="">
+            
+        </header>
+        
+
+        <main class="main">
+           
+       
+
+            <section class="sectionUno">
+                
+                <textarea id="introducirTexto" type="text" spellcheck="false" class="introducirTexto" placeholder="ingresa el texto aqui, en minusculas" required></textarea>
+                <div class="cajaDeBotones">
+                    <button type="button" onclick="encode();" class="botonEncriptar">Encriptar</button>
+                    
+                    <button type="button" onclick="decode()" class="botonDesencriptar">Desencriptar</button>
+
+                </div>
+            </section>
+
+            <section class="sectionDos">
+                <textarea id="textoEncriptado" placeholder="Encriptado" spellcheck="false" class="textoEncriptado" required></textarea>
+
+                <div class="cajaCopiar">
+                    <button onclick="botonCopiar();" id="copiarBoton"  class="botonCopiar" type="button">Copiar</button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>By Luis G. Garces t. 2024</p>
+            <div class="cajaIconos">
+                <div class="icon">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=25></circle>
+                    </svg>
+                    <a href="https://www.linkedin.com/in/luis-gabriel-garc%C3%A9s-torres/" target="_blanck" aria-label="Ingresar a mi Enlace"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <div class="icon">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=25></circle>
+                    </svg>
+                    <a href="https://github.com/luisgarces1" target="_blanck" aria-label="Ingresar a mi Enlace"><i class='bx bxl-github'></i></a>
+                </div> 
+                <div class="icon">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=25></circle>
+                    </svg>
+                    <a href="https://twitter.com/luisgarcestorre" target="_blanck" aria-label="Ingresar a mi Enlace"><i class='bx bxl-twitter'></i></a>
+                </div>
+                                <div class="icon">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=25></circle>
+                    </svg>
+                    <a href="https://www.instagram.com/luisgarcestorres/" target="_blanc" aria-label="Ingresar a mi Enlace"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
