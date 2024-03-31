@@ -22,22 +22,6 @@ body {
     text-align: center;
     padding: 1px;
 }
-.header__nav__link__logo {
-    background-image: url(img/Logo.jpg);
-    width: 70px;
-    height: 70px;
-     /* Ajusta el alto para que sea igual al ancho */
-    border-radius: 50%;
-     /* Esto hace que la imagen sea redonda */
-    transition: transform 0.5s ease;
-     /* Agrega una transición suave a la transformación */
-}
-
-.header__nav__link__logo:hover {
-    transform: rotateY(360deg);
-     /* Rota la imagen cuando el mouse está encima */
-
-}
 
 .main {
 background: linear-gradient(rgb(248, 29, 29) 33.33%, #a02102 56.67%, #3b0900 100%);
